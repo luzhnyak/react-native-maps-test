@@ -5,6 +5,7 @@ import MapView, { Callout, Marker } from "react-native-maps";
 export default function HomeScreen() {
   return (
     <View style={{ flex: 1 }}>
+      <Text>Home Screen</Text>
       <MapView
         style={StyleSheet.absoluteFillObject}
         initialRegion={{
